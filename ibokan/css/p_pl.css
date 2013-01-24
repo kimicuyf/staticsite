@@ -1,5 +1,5 @@
 /*头部与布局*/
-#p_pl .middle{
+#p_pl .mid{
 	width:980px;
 	margin:0 auto;
 	overflow:hidden;
@@ -13,41 +13,54 @@
 #p_pl .midRig{
 	float:right;
 	width:260px;
-	height:160px;
-	border:1px solid #e3e3e3;
+}
+#p_pl .midRig .circle-con{
+	height:140px;
 }
 #p_pl .circle{
 	float:left;
 	width:702px;
 	margin-top:6px;
 }
+#p_pl .midRig .circle-con{
+	height:140px;
+}
 #p_pl .circle-con{
-	height:1065px;
+	height:1074px;
 }
 #p_pl .midCon{
 	float:right;
 	width:260px;
-	height:170px;
-	border:1px solid #e3e3e3;
 	margin-top:15px;
+}
+#p_pl .midCon .circle-con{
+	height:170px;
+}
+#p_pl .midCon .ti_rc h4{
+	padding-top:0px;
 }
 #p_pl .midBot{
 	float:right;
 	width:260px;
-	height:270px;
-	border:1px solid #e3e3e3;
 	margin-top:15px;
+}
+#p_pl .midBot .circle-con{
+	height:170px;
+}
+#p_pl .midBot .circle-con .pic{
+	height:122px;
 }
 #p_pl .midBot-b{
 	float:right;
 	width:260px;
-	height:450px;
-	border:1px solid #e3e3e3;
 	margin-top:15px;
+}
+#p_pl .midBot-b .circle-con{
+	height:445px;
 }
 /*左侧列表内容*/
 #p_pl .cuteMath{
-	padding-top:13px;
+	padding-top:15px;
 	overflow:hidden;
 	font-size:14px;
 	height:114px;
@@ -97,12 +110,12 @@
 	background:none;
 }
 /*左侧列表无背景设置*/
-#p_pl .middle .circle-tm{
+#p_pl .mid .circle-tm{
 	background-color:#fff;
 }
-#p_pl .middle .circle-con{
+#p_pl .mid .circle-con{
 	background-color:#fff;
 }
-#p_pl .middle .circle-bm{
+#p_pl .mid .circle-bm{
 	background-color:#fff;
 }

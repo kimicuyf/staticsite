@@ -1,5 +1,5 @@
 /*头部与布局*/
-#j_eml .middle{
+#j_eml .mid{
 	width:980px;
 	margin:0 auto;
 	overflow:hidden;
@@ -13,23 +13,26 @@
 #j_eml .midRig{
 	float:right;
 	width:260px;
-	height:352px;
-	border:1px solid #e3e3e3;
+}
+#j_eml .midRig .circle-con{
+	height:318px;
 }
 #j_eml .circle{
 	float:left;
 	width:702px;
 	margin-top:6px;
 }
-#j_eml .circle-con{
+/*#j_eml .circle-con{
 	height:948px;
-}
+}*/
 #j_eml .midBot{
 	float:right;
 	width:260px;
 	height:614px;
-	border:1px solid #e3e3e3;
 	margin-top:15px;
+}
+#j_eml .midBot .circle-con{
+	height:576px;
 }
 /*左侧列表内容*/
 #j_eml .cuteMath{
@@ -43,6 +46,8 @@
 #j_eml .cuteMath a.teacher{
 	float:left;
 	margin-left:21px;
+	width:140px;
+	height:100px;
 }
 #j_eml .cuteMath a.name{
 	width:500px;
@@ -54,7 +59,7 @@
 	text-decoration:none;
 }
 #j_eml .cuteMath a.name h4{
-float:left;
+	float:left;
 }
 #j_eml .momen{
 	float:left;
@@ -90,12 +95,12 @@ float:left;
 	background:none;
 }
 /*左侧列表无背景设置*/
-#j_eml .middle .circle-tm{
+#j_eml .mid .circle-tm{
 	background-color:#fff;
 }
-#j_eml .middle .circle-con{
+#j_eml .mid .circle-con{
 	background-color:#fff;
 }
-#j_eml .middle .circle-bm{
+#j_eml .mid .circle-bm{
 	background-color:#fff;
 }

@@ -1,10 +1,10 @@
 
 	
-#r_eva .Header{
+/*#r_eva .Header{
 	width:100%;
 	height:166px;
 	background-color:black;
-}
+}*/
 #r_eva .main{
 	width:978px;
 	margin:0 auto;
@@ -54,6 +54,8 @@
 #r_eva .eva-1 .title{
 	overflow:hidden;
 	height:75px;
+	
+	
 }
 #r_eva .eva-1 .corporate{
 	font-size:13px;
@@ -80,12 +82,12 @@
 	/*background-color:black;*/
 	background-color:#f7fafb;
 }
-#r_eva .footer{
+/*#r_eva .footer{
 	height:302px;
 	width:100%;
 	background-color:black;
 	margin-top:37px;
-}
+}*/
 #r_eva .content{
 	width:976px;
 	border-left:1px solid #e6e6e6;

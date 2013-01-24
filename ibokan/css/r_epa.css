@@ -9,8 +9,9 @@
 	}
 	.r_epa-con{
 		width:977px;
-		margin:0 auto 33px;
-		border:1px solid #e3e3e3;
+		margin:0 auto;
+		border-left:1px solid #e3e3e3;
+		border-right:1px solid #e3e3e3;
 		border-top:none;
 		padding:18px 0;
 		background-color:#f7fafb;
@@ -69,4 +70,8 @@
 	}
 	.r_epa-step .circle-bm{
 		background-color:#ffffff;
+	}
+	.r_epa-all .circle-bm{
+		width:978px;
+		margin:0 auto;
 	}

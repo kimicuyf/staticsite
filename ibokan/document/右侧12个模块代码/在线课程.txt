@@ -15,7 +15,7 @@ html代码：
 		<div class='coursedetail'>
 			<ul>
 				<li class='course1'>
-					<h4>1.视频课程###<h4>
+					<h4>1.视频课程###</h4>
 					<p>介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</p>
 				</li>
 				<li class='course2'>2.视频课程###</li>

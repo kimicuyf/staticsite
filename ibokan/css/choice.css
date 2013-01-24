@@ -60,10 +60,10 @@
 }
 #choice .choice-sR{
 	float:right;
-	width:260px;border:1px solid red;height:429px;
+	width:260px;height:429px;
 }
 #choice .choice-s .choice-sLx .circle-con{
-	height:195px;
+	height:192px;
 }
 #choice .choice-sLx{
 	width:702px;
@@ -87,6 +87,9 @@
 }
 #choice .choice-sLx .circle-con ol li{
 	background:url(../images/dian.gif) 0 0 repeat-x;
+}
+#choice .choice-sLx .circle-con ol .circle-conTl{
+	background:none;
 }
 #choice .choice-sLx .circle-con ol li a{
 	color:#838383;
@@ -132,11 +135,12 @@
 	margin:9px 17px 0 0;
 	_display:inline;
 }
-#choice .pnPageClearfix{
+#choice .pnPageclearfix{
 	float:right;
-	margin-top:10px;
 	overflow:hidden;
+	width:300px;
 	margin-right:10px;
+	margin-top:-20px;
 	_zoom:1;
 }
 #choice .circle-conTlx{
@@ -150,19 +154,29 @@
 	text-decoration:none;
 	_display:inline;
 }
+/*
 #choice .choice-xLs .pnPageClearfix span{
 	color:#8d8d8d;
 	text-decoration:none;
+}*/
+
+
+#choice .choice-xLx .circle-con{
+	width:700px;
+	height:183px;
 }
 #choice .circle-conxx{
-	width:233px;
+	width:223px;
+	height:183px;
 	float:left;
-	background:url(../images/dians.gif) 232px 0 repeat-y;
+	border-right:1px dotted #dedede;
 }
+
 #choice .choice-xLx .circle-conxx h5{
 	height:50px;
 	width:206px;
 	font-size:14px;
+	padding-left:10px;
 	color:#616161;
 	line-height:25px;
 	margin:0 auto;
@@ -171,18 +185,20 @@
 	width:206px;
 	font-size:12px;
 	height:96px;
+	padding-left:10px;
+	margin:0 auto;
 	line-height:24px;
 	overflow:hidden;
+	text-indent:2em;
+	color:#b0b0b0;
+	margin-bottom:12px;
 }
-#choice .choice-xLx .circle-conxx,.circle-conxc,.circle-conxl span{
-	height:12px;
-	line-height:12px;
-}
+
 #choice .circle-conxc{
-	width:233px;
-	height:179px;
+	width:223px;
+	height:183px;
 	float:left;
-	background:url(../images/dians.gif) 232px 0 repeat-y;
+	border-right:1px dotted #dedede;
 }
 #choice .choice-xLx .circle-conxc h5{
 	height:50px;
@@ -190,19 +206,26 @@
 	font-size:14px;
 	color:#616161;
 	line-height:25px;
+	padding-left:10px;
 	margin:0 auto;
 }
 #choice .choice-xLx .circle-conxc p{
 	width:206px;
+	margin:0 auto;
 	font-size:12px;
 	height:96px;
 	line-height:24px;
+	padding-left:10px;
 	overflow:hidden;
+	color:#b0b0b0;
+	text-indent:2em;
+	margin-bottom:12px;
 }
 #choice .choice-xLx .circle-conxl{
-	width:233px;
-	height:179px;
+	width:223px;
+	height:183px;
 	float:left;
+	margin:0 auto;
 }
 #choice .choice-xLx .circle-conxl h5{
 	height:50px;
@@ -217,19 +240,37 @@
 	font-size:12px;
 	height:96px;
 	line-height:24px;
+	margin:0 auto;
 	overflow:hidden;
+	color:#b0b0b0;
+	text-indent:2em;
+	margin-bottom:12px;
 }
 #choice .choice-xRs{
 	float:right;
-	width:260px;border:1px solid red;height:429px;
+	width:260px;
+	height:429px;
 }
 #choice .choice-xLx{
 	width:702px;
 	margin-top:15px;
-	float:left;height:212px;
+	float:left;
+}
+#choice .circle-conxx a,.circle-conxc a,.circle-conxl a{
+	width:206px;
+	padding-left:10px;
+	line-height:12px;
+	color:#b84040;
 }
 #choice .choice-xRx{
 	width:260px;
 	margin-top:15px;
-	float:right;border:1px solid red;height:212px;
+	float:right;height:218px;
+}
+#choice .circle-con-all{
+	width:674px;
+	margin:0 auto;
+}
+#choice .pnPage{
+	margin-top:21px;
 }

@@ -416,6 +416,7 @@ h1{color:blue;}
 .index-c-four .circle-con{
 	padding:12px 0 0 38px;
 	position:relative;
+	width:661px;
 }
 .index-four1{
 	width:137px;
@@ -430,6 +431,7 @@ h1{color:blue;}
 	position:absolute;
 	left:0;
 	top:37px;
+
 }
 .index-pror{
 	position:absolute;
@@ -449,6 +451,9 @@ h1{color:blue;}
 	background: url(../images/index-join.gif) 0 bottom repeat-x;
 	text-align: left;
 	overflow: hidden;
+}
+.index-c-news .circle-con a{
+	color:#989898;
 }
 .index-c-news .circle-con .index-c-joinli{
 	background:none;

@@ -19,14 +19,29 @@
 	float:right;
 	width:260px;
 	height:355px;
-	border:1px solid #e3e3e3;
+}
+#j_evl .midRig .circle-con p{
+	width:230px;
+	margin:0;
+	font-size:13px;
+}
+#j_evl .midRig .circle-con h4{
+	font-size:16px;
+}
+#j_evl .midRig .circle-con .carimg{
+	height:159px;
 }
 #j_evl .midRig-bot{
 	float:right;
 	width:260px;
 	height:615px;
-	border:1px solid #e3e3e3;
 	margin-top:16px;
+}
+#j_evl .midRig-bot .circle-con .c_dl-cl{
+	height:99px;
+}
+#j_evl .midRig-bot .circle-con .c_dl-div{
+	height:99px;
 }
 /*左侧列表*/
 #j_evl .midLef-one{
@@ -43,6 +58,7 @@
 #j_evl .midLef-one.exc{
 	background:none;
 }
+
 #j_evl .circle-con a{
 	float:left;
 	line-height:19px;

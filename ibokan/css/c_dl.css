@@ -17,16 +17,18 @@
 }
 #c_dl .midRig{
 	float:right;
-	width:260px;
-	height:428px;
-	border:1px solid #e3e3e3;
+}
+#c_dl .midRig .pnPage{
+	margin-top:20px;
 }
 #c_dl .midRig-bot{
 	float:right;
 	width:260px;
-	height:428px;
-	border:1px solid #e3e3e3;
-	margin-top:15px;
+	height:430px;
+	margin-top:16px;
+}
+#c_dl .midRig-bot .pnPage{
+	margin-top:24px;
 }
 /*左侧列表*/
 #c_dl .midLef-one{
@@ -37,10 +39,10 @@
 	padding-top:10px;
 	background:url("../images/c_dl-bot-bg.gif") 0 bottom repeat-x;
 }
-#c_dl .midLef-one.special{
+#c_dl .special{
 	padding-top:20px;
 }
-#c_dl .midLef-one.exc{
+#c_dl .exc{
 	background:none;
 }
 #c_dl .circle-con a{

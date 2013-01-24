@@ -1,9 +1,12 @@
 /*头部与布局*/
-#te_il .middle{
+#te_il .mid{
 	width:980px;
 	margin:0 auto;
 	overflow:hidden;
 	margin-bottom:28px;
+}
+#te_il .midRig .titleBar-icon{
+	display:inline;
 }
 #te_il .main-top{
 	float:left;
@@ -13,34 +16,36 @@
 #te_il .midRig{
 	float:right;
 	width:260px;
-	height:382px;
-	border:1px solid #e3e3e3;
 }
+
 #te_il .circle{
 	float:left;
 	width:702px;
 	margin-top:6px;
 }
-#te_il .circle-con{
-	height:854px;
-}
 #te_il .midCon{
 	float:right;
 	width:260px;
-	height:202px;
-	border:1px solid #e3e3e3;
-	margin-top:15px;
+	margin-top:13px;
+}
+#te_il .midCon .circle-con .pic{
+	height:128px;
 }
 #te_il .midBot{
 	float:right;
 	width:260px;
 	height:272px;
-	border:1px solid #e3e3e3;
-	margin-top:15px;
+	margin-top:13px;
+}
+#te_il .midBot .circle-con .pic{
+	height:128px;
+}
+#te_il .midBot .wt-rc .content{
+	padding-bottom:0px;
 }
 /*左侧列表内容*/
 #te_il .cuteMath{
-	padding-top:15px;
+	padding-top:16px;
 	overflow:hidden;
 	font-size:14px;
 	height:148px;
@@ -81,12 +86,12 @@
 	background:none;
 }
 /*左侧列表无背景设置*/
-#te_il .middle .circle-tm{
+#te_il .mid .circle-tm{
 	background-color:#fff;
 }
-#te_il .middle .circle-con{
+#te_il .mid .circle-con{
 	background-color:#fff;
 }
-#te_il .middle .circle-bm{
+#te_il .mid .circle-bm{
 	background-color:#fff;
 }
