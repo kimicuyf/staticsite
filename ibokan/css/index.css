@@ -108,7 +108,7 @@ h1{color:blue;}
 	color:#a2a2a2;
 	height:38px;
 	line-height:38px;
-	background:url(../images/index-li.gif) no-repeat 0 bottom;
+	background:url(../images/index-li.gif) repeat-x 0 bottom;
 }
 .index-con{
 	margin-top:17px;
